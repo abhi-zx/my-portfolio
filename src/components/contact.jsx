@@ -3,6 +3,7 @@ import imageOverlay from "../img/earth.jpg";
 
 function Contact() {
   return (
+    <div>
     <section
       className="paralax-mf footer-paralax bg-image sect-mt4 route"
       style={{ backgroundImage: "url(" + imageOverlay + ")" }}
@@ -101,7 +102,7 @@ function Contact() {
                       <h5 className="title-left">Get in Touch</h5>
                     </div>
                     <div className="more-info">
-                      <p className="lead">
+                      <div className="lead">
                         Whether you want to get in touch, talk about a project
                         collaboration, or just say hi, I'd love to hear from
                         you.
@@ -119,7 +120,7 @@ function Contact() {
                           <span style={{ fontWeight: "bold" }}> Mob No.:</span>
                           <span>7461821663</span>
                         </p>
-                      </p>
+                      </div>
                       {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
                                 <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
@@ -170,6 +171,7 @@ function Contact() {
         </div>
       </footer>
     </section>
+    </div>
   );
 }
 
