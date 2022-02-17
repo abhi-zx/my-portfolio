@@ -94,8 +94,12 @@ class About extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="skill-mf">
-                <p className="title-s">Skill</p>
+              
+
+              {/* </div> */}
+            </div>
+            <div className="skill-mf">
+                <p className="title-s"><h2>Skills</h2></p>
                 {/* {this.state.skills.map((skill) => {
                   return (
                     <React.Fragment key={skill.id}>
@@ -214,9 +218,6 @@ class About extends React.Component {
                   </div>
                 </div>
               </div>
-
-              {/* </div> */}
-            </div>
           </div>
           {/* </div> */}
         </div>
